@@ -1,0 +1,26 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb"],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "linebreak-style": [2, "unix"],
+    "no-underscore-dangle": 0,
+    "semi": [2, "always"],
+    "prefer-const": [2],
+    "comma-dangle": ["error", "always-multiline"],
+    "indent": 0,
+    "no-shadow": 0,
+    "no-alert": 0,
+    "strict": 0
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "window": true,
+    "env": true
+  },
+  "plugins": ["react"]
+}

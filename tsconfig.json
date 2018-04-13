@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noErrorTruncation": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "strict": true,
+    "paths": {
+      "actions/*": ["actions/*"],
+      "components/*": ["components/*"],
+      "containers/*": ["containers/*"],
+      "interfaces/*": ["interfaces/*"],
+      "reducers/*": ["reducers/*"],
+      "routes/*": ["routes/*"],
+      "store/*": ["store/*"]
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true,
+    "useBabel": true
+  }
+}
